@@ -17,13 +17,15 @@
                </ul>
                <br>
         <h2>Materiales.</h2>
-           <h3>Imagen del logo:</h3>
+           <h3>Imagenes del logo:</h3>
               <p>https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F5%2F56%2Fpng-transparent-website-development-html5-logo-world-wide-web-consortium-world-wide-web-angle-web-design-text.png&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-dcjna&tbnid=S-2fgQUbeGCoFM&vet=12ahUKEwiaudHkg4PsAhXJazABHcEsAXYQMygBegUIARClAQ..i&docid=yTo-lDlSradiWM&w=920&h=920&q=logo%20html5&hl=es&ved=2ahUKEwiaudHkg4PsAhXJazABHcEsAXYQMygBegUIARClAQ</p>
+              <p>https://www.google.com/imgres?imgurl=https%3A%2F%2Fe7.pngegg.com%2Fpngimages%2F840%2F443%2Fpng-clipart-html-5-logo-web-development-html-css3-canvas-element-web-design-w3c-html5-logo-miscellaneous-text.png&imgrefurl=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-zkfee&tbnid=44jYS2jiZY43rM&vet=12ahUKEwjs_PXj6YfsAhUBgVkKHSY9AxAQMygKegUIARClAQ..i&docid=O0yWHHjFp7lzLM&w=900&h=512&itg=1&q=logo%20html5&hl=es&ved=2ahUKEwjs_PXj6YfsAhUBgVkKHSY9AxAQMygKegUIARClAQ</p>
            <h3>Información Estructura básica de html5 (etiquetas, atributos y valores) tomada de:</h3>
               <p>App soloLearn: Aprende a Programar, navegador en https://www.sololearn.com y pantallasos tomadas de app.</p>
               <br>
         <h2>Contenido.</h2>
             <h3>Bienvenidos al curso de sitios web, vamos a realizar la explicación de Estructura básica de html5 (etiquetas, atributos y valores).</h3>
+            <img src="imagenes/logo.png" alt="Logo Html5">
                <h4>Etiquetas Estructura básica de html5:</h4>
                   <ul>
                      <li><b>header:</b> Contiene los marcados del logo y es apropiado para ser usado dentro de la etiqueta body.</li>
@@ -33,8 +35,119 @@
                      <li><b>section:</b> Es un contenedor lógico de la página web o articulo. Las secciones pueden ser usadas para dividir contenido dentro de un artículo.</li>
                      <li><b>aside:</b> Es contenido secundario o tangencial que podría ser considerado separado, pero indirectamente relacionado al contenido principal. Este tipo de contenido es a veces representado en barras laterales.</li>
                   </ul>
-                      <p>Una estructura de página genérica html5 se ve asi:</p>
-               <br>
+               <h3>Atributos y valores</h3>
+               <p>Los atributos proveen información adicional sobre un elemento o etiqueta, a la vez que lo modifican. La mayoría de los atributos tienen un valor; el valor modifica al atributo. <B>Ejemplos:</B></p>
+               <img src="imagenes/aling.jpeg" alt="aling">
+               <img src="imagenes/width.jpeg" alt="width">
+               <img src="imagenes/aling-width.jpeg" alt="aling-width">
+                 <h4>Atributos basicos:</h4>
+                    <ul>
+                       <li><b>id="texto":</b> Establece un indicador único a cada elemento.</li>
+                       <li><b>class="texto"</b> Establece la clase CSS que se aplica a los estilos del elemento.</li>
+                       <li><b>style="texto"</b> Aplica de forma directa los estilos CSS de un elemento.</li>
+                       <li><b>title="texto"</b> Establece el título del elemento (Mejora la accesibilidad).</li>
+                    </ul>
+                  <h4>Atributos de internacionalización:</h4>
+                     <ul>
+                        <li><b>lang="codigo"</b> Indica el idioma del elemento.</li>
+                        <li><b>xml:lang="codigo"</b> Indica el idioma del elemento, aunque tiene más prioridad que el atributo anterior y es obligatorio si se incluye el atributo lang.</li>
+                        <li><b>dir</b> Indica la dirección del texto.</li>
+                     </ul>
+                  <h4>Atributos de eventos:</h4>
+                     <h4>-Pueden ser utilizados por todos los elementos:</h4>
+                        <ul>
+                           <li><b>onclick:</b> Ejecuta la acción cuando se realiza un clic sobre el elemento.</li>
+                           <li><b>ondblclick:</b> Ejecuta la acción cuando se realiza un doble clic sobre el elemento.</li>
+                           <li><b>onmousedown:</b> Ejecuta la acción cuando se detecta el botón pulsado del ratón.</li>
+                           <li><b>onmouseup:</b> Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón.</li>
+                           <li><b>onmousemove:</b> Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento.</li>
+                           <li><b>onmouseout:</b> Ejecuta la acción cuando el ratón abandona el elemento.</li>
+                           <li><b>onmouseover</b> Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento.</li>
+                        </ul>
+                     <h4>-Pueden ser utilizados por body:</h4>
+                        <ul>
+                           <li><b>onload:</b> Ejecuta la acción cuando se carga el documento.</li>
+                           <li><b>onunload:</b> Ejecuta la acción cuando se abandona el documento.</li>
+                           <li><b>onresize:</b> Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador.</li>
+                        </ul>
+                     <h4>-Pueden ser utilizados por elementos de formulario y body:</h4>
+                        <ul>
+                           <li><b>onkeydown:</b> Ejecuta la acción cuando se detecta que la tecla esta pulsada.</li>
+                           <li><b>onkeyup</b> Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada.</li>
+                           <li><b>onkeypress:</b> Ejecuta la acción cuando se pulsa una tecla.</li> 
+                        </ul>
+                     <h4>-Pueden ser utilizados por varios:</h4>
+                        <ul>
+                           <li><b>onblur:</b> Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por navegación tabulada. Pueden usarlo: button: input, label, select, textarea, body.</li>
+                           <li><b>onfocus:</b> Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por navegación tabulada. Pueden usarlo: button: input, label, select, textarea, body.</li>
+                           <li><b>onchange:</b> Ejecuta la acción cuando el valor de un control ha sido modificado. Pueden usarlo: input, select, textarea.</li>
+                           <li><b>onreset:</b> Ejecuta la acción cuando el formulario es restablecido a sus valores por defecto. Pueden usarlo: form.</li>
+                           <li><b>onselect:</b> Ejecuta la acción cuando un usuario selecciona texto en un campo de texto. Pueden usarlo: input, textarea.</li>
+                           <li><b>onsubmit:</b> Ejecuta la acción cuando el formulario es enviado. Pueden usarlo: form.</li>
+                        </ul>
+                  <h4>Atributos de foco.</h4>
+                     <ul>
+                        <li><b>accesskey="letra":</b> Establece una tecla de acceso rápido a un elemento HTML.</li>
+                        <li><b>tabindex="numero"</b> Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767).</li>
+                        <li><b>onfocus, onblur:</b> Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco.</li>
+                     </ul>
+                  <h4>Elementos en línea:</h4>
+                     <ul>
+                        <li><b>a:</b> Define un anchor (anclaje o hipervínculo).</li>
+                        <li><b>abbr:</b> Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas.</li>
+                        <li><b>acronym:</b> Marca las siglas o acrónimos del texto y proporciona el significado de esas siglas.</li>
+                        <li><b>b</b> Indica que el texto debe ser representado e bold (o negrita).</li>
+                        <li><b>basefont:</b> Permite cambiar algunas propiedades del texto,.</li>
+                        <li><b>bdo:</b> Anulación del algoritmo bidireccional (en referencia a la dirección de la escritura).</li>
+                        <li><b>big:</b> Muestra el texto marcado con un tamaño de fuente más grande.</li>
+                        <li><b>br:</b> line break - ruptura (o salto) de línea.</li>
+                        <li><b>cite:</b> Se emplea para marcar una cita o una referencia a otras fuentes.</li>
+                        <li><b>code:</b> Delimita el texto considerado un fragmento de código fuente.</li>
+                        <li><b>dfn:</b> Marca las definiciones de ciertos términos y proporciona el significado de éstos.</li>
+                        <li><b>em:</b> emphasis – énfasis.</li>
+                        <li><b>font:</b> Indica el tamaño, color, o fuente del texto que contiene.</li>
+                        <li><b>i:</b> Muestra el texto marcado con un estilo en cursiva o itálica.</li>
+                        <li><b>img:</b> Imagen.</li>
+                        <li><b>input:</b> Posibilita y define la introducción de datos en el formulario.</li>
+                        <li><b>kbd:</b> Indicar al usuario el texto que debe introducir.</li>
+                        <li><b>label:</b> Asocia un rótulo o etiqueta a un campo de un formulario.</li>
+                        <li><b>q:</b> short quotations - cita corta.</li>
+                        <li><b>s:</b> strike-through - tachado.</li>
+                        <li><b>samp:</b> Sirve identificar una muestra de los caracteres que forman la salida o el resultado de algún proceso.</li>
+                        <li><b>select:</b> Crea un contenedor mediante el cual el usuario puede seleccionar de una lista de opciones.</li>
+                        <li><b>small:</b> Aplica al texto marcado un tamaño de fuente más pequeño.</li>
+                        <li><b>span:</b> Es un contenedor genérico en línea. Sirve para para aplicar estilo al texto o agrupar elementos en línea.</li>
+                        <li><b>strike:</b> Muestra el texto tachado con una linea horizontal.</li>
+                        <li><b>strong:</b> Marca con especial énfasis las partes más importantes de un texto.</li>
+                        <li><b>sub:</b> Crea un subíndice posicionando el texto marcado por debajo de la linea.</li>
+                        <li><b>sup:</b> Crea un superíndice posicionando el texto marcado por encima de la linea.</li>
+                        <li><b>textarea:</b> Crea un control de entrada de texto multilínea.</li>
+                        <li><b>tt:</b> Representa como texto de teletipo o ancho fijo.</li>
+                        <li><b>u:</b> Muestra el texto subrayado.</li>
+                        <li><b>var:</b> Marca variables de programas y similares.</li>
+                     </ul>
+                  <h4>Elementos en bloque</h4>
+                     <ul>
+                        <li><b>address:</b> 	Contiene la información de contacto con los autores del documento.</li>
+                        <li><b>blockquote:</b> Indica que el texto que encierra es una cita textual de otro texto externos.</li>
+                        <li><b>center:</b> 	Crea una caja en bloque con el contenido centrado.</li>
+                        <li><b>dir:</b> Crea listas multicolumna de directorios.</li>
+                        <li><b>div:</b> Es un elemento en bloque genérico y sirve para crear secciones o agrupar contenidos.</li>
+                        <li><b>dl:</b> Crea una lista de definiciones.</li>
+                        <li><b>fieldset:</b> Permite organizar en grupos los campos de un formulario.</li>
+                        <li><b>form:</b> Actúa como contenedor de controles. Representa un formulario.</li>
+                        <li><b>h1, h2, h3, h4, h5, h6:</b> Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente.</li>
+                        <li><b>hr:</b> Crea una linea de separación horizontal.</li>
+                        <li><b>isindex:</b> Crea un control de entrada de texto de una línea.</li>
+                        <li><b>menu:</b> 	Crea un menú.</li>
+                        <li><b>noframes:</b> (sin marcos) - aporta contenidos alternativos a los marcos.</li>
+                        <li><b>nos-cript</b> Contenedor de contenido alternativo para la representación no basada en scripts.</li>
+                        <li><b>ol:</b> Crea una lista ordenada.</li>
+                        <li><b>p:</b> Párrafo.</li>
+                        <li><b>pre:</b> Permite que el texto conserve el formato y sea mostrado tal cual.</li>
+                        <li><b>table:</b> Tabla.</li>
+                        <li><b>ul:</b> Crea una lista no ordenada.</li>
+                     </ul>
         <h2>Maquetación de la página principal.</h2>
 </body>
 </html>
