@@ -55,6 +55,9 @@ body{
 .menu li:hover .submenu{
     visibility: visible;
 
-    opacity: 1;
-
+    opacity: 2;
+}
+section{
+    text-align: center;
+    background-color: rgb(247, 244, 241);
 }
