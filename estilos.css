@@ -61,3 +61,38 @@ section{
     text-align: center;
     background-color: rgb(247, 244, 241);
 }
+
+
+aside{
+    margin: 0;
+    padding: o;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+.social ul li .icon-twitter{
+    background: azure;
+}
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #313D52 ;
+}

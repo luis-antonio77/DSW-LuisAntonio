@@ -12,7 +12,93 @@
         <hr>
     </header>
     <section>
-        <h1>Conceptos</h1>
+        <h1>Estructura básica de html5 (etiquetas, atributos y valores).</h1>
+        <img src="imagenes/logohtml5.png" alt="logo">
+        <hr>
+        <h2>Atributos de eventos:</h2>
+        <h3>Pueden ser utilizados por todos los elementos:</h3>
+        <p><b>-onclick:</b>  Ejecuta la acción cuando se realiza un clic sobre el elemento.</p>
+        <p><b>-ondblclick:</b> Ejecuta la acción cuando se realiza un doble clic sobre el elemento.</p>
+        <p><b>-onmousedown:</b> Ejecuta la acción cuando se detecta el botón pulsado del ratón.</p>
+        <p><b>-onmouseup:</b> Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón.</p>
+        <p><b>-onmousemove:</b> Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento.</p>
+        <p><b>-onmouseout:</b> Ejecuta la acción cuando el ratón abandona el elemento.</p>
+        <p><b>-onmouseover:</b> Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento.</p>
+        <h3>Pueden ser utilizados por body:</h3>
+        <p><b>-onload:</b>  Ejecuta la acción cuando se carga el documento.</p>
+        <p><b>-onunload:</b>  Ejecuta la acción cuando se abandona el documento.</p>
+        <p><b>-onresize:</b> Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador.</p>
+        <h3>Pueden ser utilizados por elementos de formulario y body:</h3>
+        <p><b>-onkeydown:</b>  Ejecuta la acción cuando se detecta que la tecla esta pulsada.</p>
+        <p><b>-onkeyup:</b>  Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada.</p>
+        <p><b>-onkeypress:</b> Ejecuta la acción cuando se pulsa una tecla.</p>
+        <h3>Pueden ser utilizados por varios:</h3>
+        <p><b>-onblur:</b>  Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por navegación tabulada. Pueden usarlo: button: input, label, select, textarea, body.</p>
+        <p><b>-onfocus: </b> Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por navegación tabulada. Pueden usarlo: button: input, label, select, textarea, body.</p>
+        <p><b>-onchange:</b> Ejecuta la acción cuando el valor de un control ha sido modificado. Pueden usarlo: input, select, textarea.</p>
+        <p><b>-onreset:</b> Ejecuta la acción cuando el formulario es restablecido a sus valores por defecto. Pueden usarlo: form.</p>
+        <p><b>-onselect:</b> Ejecuta la acción cuando un usuario selecciona texto en un campo de texto. Pueden usarlo: input, textarea.</p>
+        <p><b>-onsubmit:</b>  Ejecuta la acción cuando el formulario es enviado. Pueden usarlo: form.</p>
+        <hr>
+        <h3>Atributos de foco:</h3>
+        <p><b>-accesskey="letra":</b> Establece una tecla de acceso rápido a un elemento HTML.</p>
+        <p><b>-tabindex="numero"</b> Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767).</p>
+        <p><b>-onfocus, onblur:</b> Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco.</p>
+        <hr>
+        <h3>Elementos en línea:</h3>
+        <p><b>-a:</b> Define un anchor (anclaje o hipervínculo).</p>
+        <p><b>-abbr:</b> Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas.</p>
+        <p><b>-a:</b> Marca las siglas o acrónimos del texto y proporciona el significado de esas siglas.</p>
+        <p><b>-b:</b> Indica que el texto debe ser representado e bold (o negrita).</p>
+        <p><b>-basefont:</b> Permite cambiar algunas propiedades del texto.</p>
+        <p><b>-bdo:</b> Anulación del algoritmo bidireccional (en referencia a la dirección de la escritura).</p>
+        <p><b>-big:</b> Muestra el texto marcado con un tamaño de fuente más grande.</p>
+        <p><b>-br:</b>  line break - ruptura (o salto) de línea.</p>
+        <p><b>-cite:</b> Se emplea para marcar una cita o una referencia a otras fuentes.</p>
+        <p><b>-code:</b> Delimita el texto considerado un fragmento de código fuente.</p>
+        <p><b>-dfn:</b> Marca las definiciones de ciertos términos y proporciona el significado de éstos.</p>
+        <p><b>-em:</b> emphasis – énfasis.</p>
+        <p><b>-font:</b> Indica el tamaño, color, o fuente del texto que contiene.</p>
+        <p><b>-i:</b>  Muestra el texto marcado con un estilo en cursiva o itálica.</p>
+        <p><b>-img:</b> Imagen.</p>
+        <p><b>-input:</b> Posibilita y define la introducción de datos en el formulario.</p>
+        <p><b>-kbd:</b>  Indicar al usuario el texto que debe introducir.</p>
+        <p><b>-label:</b>  Asocia un rótulo o etiqueta a un campo de un formulario.</p>
+        <p><b>-q:</b>  short quotations - cita corta.</p>
+        <p><b>-s:</b> strike-through - tachado.</p>
+        <p><b>-samp:</b> Sirve identificar una muestra de los caracteres que forman la salida o el resultado de algún proceso.</p>
+        <p><b>-select:</b> Crea un contenedor mediante el cual el usuario puede seleccionar de una lista de opciones.</p>
+        <p><b>-small:</b> Aplica al texto marcado un tamaño de fuente más pequeño.</p>
+        <p><b>-span:</b>  Es un contenedor genérico en línea. Sirve para para aplicar estilo al texto o agrupar elementos en línea.</p>
+        <p><b>-strike:</b> Muestra el texto tachado con una linea horizontal.</p>
+        <p><b>-strong:</b>  Marca con especial énfasis las partes más importantes de un texto.</p>
+        <p><b>-sub:</b> Crea un subíndice posicionando el texto marcado por debajo de la linea.</p>
+        <p><b>-sup:</b>  Crea un superíndice posicionando el texto marcado por encima de la linea</p>
+        <p><b>-textarea:</b> Crea un control de entrada de texto multilínea.</p>
+        <p><b>-tt: </b> Representa como texto de teletipo o ancho fijo.</p>
+        <p><b>-u:</b> Muestra el texto subrayado.</p>
+        <p><b>-var:</b> Marca variables de programas y similares.s</p>
+        <hr>
+        <h3>Elementos en bloque:</h3>
+        <p><b>-address:</b> Contiene la información de contacto con los autores del documento.</p>
+        <p><b>-blockquote: </b>  Indica que el texto que encierra es una cita textual de otro texto externos.</p>
+        <p><b>-center:</b> Crea una caja en bloque con el contenido centrado.</p>
+        <p><b>-dir:</b> Crea listas multicolumna de directorios.</p>
+        <p><b>-div:</b> Es un elemento en bloque genérico y sirve para crear secciones o agrupar contenidos.</p>
+        <p><b>-dl:</b> Crea una lista de definiciones.</p>
+        <p><b>-fieldset:</b> Permite organizar en grupos los campos de un formulario.</p>
+        <p><b>-form:</b> Actúa como contenedor de controles. Representa un formulario.</p>
+        <p><b>-h1, h2, h3, h4, h5, h6:</b> Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente</p>
+        <p><b>-hr:</b> Crea una linea de separación horizontal.</p>
+        <p><b>-isindex:</b> Crea un control de entrada de texto de una línea.</p>
+        <p><b>-menu:</b>  Crea un menú.</p>
+        <p><b>-noframes:</b>  (sin marcos) - aporta contenidos alternativos a los marcos.</p>
+        <p><b>-nos-cript:</b> Contenedor de contenido alternativo para la representación no basada en scripts.</p>
+        <p><b>-ol:</b> Crea una lista ordenada./p>
+        <p><b>-p:</b> Párrafo.</p>
+        <p><b>-pre: </b>Permite que el texto conserve el formato y sea mostrado tal cual. </p>
+        <p><b>-table:</b> Tabla.</p>
+        <p><b>-ul:</b> Crea una lista no ordenada.</p>
     </section>
 </body>
 </html>
